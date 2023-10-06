@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 public class MainHWTest {
     private final MainHW mainHW = new MainHW();
 
+// Задача 1.
+
     @Test
     public void testEvenOddNumber_evenNumber(){
         int n = 10;
@@ -17,6 +19,9 @@ public class MainHWTest {
         boolean result = mainHW.evenOddNumber(n);
         Assertions.assertFalse(result);
     }
+
+// Задача 2.
+
     @Test
     public void testNumberInterval_numberRange(){
         int m = 26;
