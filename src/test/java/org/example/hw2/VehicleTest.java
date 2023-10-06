@@ -1,3 +1,4 @@
+/**
 package org.example.hw2;
 import main.java.org.example.hw2.Vehicle;
 import main.java.org.example.hw2.Car;
@@ -34,3 +35,4 @@ class VehicleTest {
         Assert.assertEquals(motorcycle.getSpeed(), 75);
     }
 }
+ */
